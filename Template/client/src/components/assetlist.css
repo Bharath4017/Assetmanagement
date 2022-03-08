@@ -1,0 +1,134 @@
+body {
+    background-color:#fcfcff;
+}
+
+table {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.table-fixed thead th {
+  position: sticky;
+  top: 0;
+}
+td {
+    font-size: 11px;
+}
+
+th {
+    font-size: 13px;
+}
+
+/* tbody {
+    background-color: rgb(240, 37, 37);
+    box-shadow: 0 4px 8px 0 #96d7ed;
+
+} */
+
+tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+
+   
+}
+.table-wrapper{
+    height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+ 
+}
+
+.Form_Btn_Reset {
+    width: 78px;
+    height: 30px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px 8px 3px 16px;
+    border-radius: 20px;
+    background-color: #f4e2ff;
+    border-width: 0px;
+  }
+  .Reset {
+    width: 33px;
+    height: 15px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #8626c3;
+    font-family: sans-serif;
+  }
+
+  
+
+.Form_Filter_Dropdown {
+  width: 100px;
+  height: 30px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  padding: 3px 8px 3px 16px;
+  border-radius: 20px;
+  border: solid 1px #eee;
+  background-color: #fff;
+}
+
+
+.Status {
+    width: 36px;
+    height: 15px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #999;
+  }
+
+.search {
+    width: 264px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8px 0 0;
+    padding: 3px 4px 3px 12px;
+    border-radius: 18px;
+    border: solid 1px #e3e3e3;
+    background-color: #fff;
+}
+
+
+.Ellipse-7 {
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 24px;
+    opacity: 0.5;
+    background-color: #f6edfc;
+  }
+
+
+
+
+
+
+
+

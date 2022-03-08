@@ -1,0 +1,17 @@
+.buttonCard {
+    height:50px;
+    border-width: 0px;
+    font-weight: 500;
+    background-color: white;
+    color: grey;
+}
+
+.buttonCard_2 {
+    height:50px;
+    border-width: 0px 0px 3px 0px;
+    font-weight: 500;
+    background-color: white;
+    border-color: #224BC4;
+    color: #224BC4;
+}
+

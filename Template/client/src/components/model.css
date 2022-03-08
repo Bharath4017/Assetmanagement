@@ -1,0 +1,46 @@
+.modelBackground {
+    width:"100%";
+    height:"100%";
+    background-color: rgba(200,200,200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modelContainer {
+    width:"800px";
+    height:"800px";
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.modelContainer.title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titleCloseBtn{
+      display: flex;  
+      justify-content: flex-end;
+}
+.titleCloseBtn button {
+    background-color: transparent;
+    border:none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modelContainer .body {
+    flex:"50%";
+    display: "flex";
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7 rem;
+}
+
